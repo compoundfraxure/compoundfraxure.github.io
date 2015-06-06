@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "WIP"
+date:   2015-06-05 20:41:08
+---
+Hey there. I guess you found my website. It is currently under construction, but you are free to look around. Just don't be surprised if you run into broken links, incomplete pages, or the site changes entirely when you refresh. I will be adding more stuff eventually, don't worry.
