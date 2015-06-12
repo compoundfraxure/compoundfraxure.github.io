@@ -1,6 +1,5 @@
 # Site settings
 title: Compound Fraxure
-email: jparnell1997@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The compoundest of fraxures
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -11,3 +10,4 @@ github_username:  compoundfraxure
 # Build settings
 markdown: redcarpet
 pygments: true
+paginate: 5
