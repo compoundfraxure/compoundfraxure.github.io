@@ -9,7 +9,7 @@ layout: default
     </p>
 {% endif %}
 
-<p><span class="glyphicon glyphicon-time"></span> Posted on {{ page.date | date_to_string }} &nbsp <span class="glyphicon glyphicon-comment"></span> <a href="#disqus_thread"> View Comments</a></p>
+<p><span class="glyphicon glyphicon-time"></span> {{ page.date | date: "%B %-d %Y" }} &nbsp <span class="glyphicon glyphicon-comment"></span> <a href="#disqus_thread"> View Comments</a></p>
 
 <hr>
 

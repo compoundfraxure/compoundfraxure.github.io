@@ -22,7 +22,7 @@ title: Compound Fraxure
                     by {{ post.author }}
                 </p>
 				{% endif %}
-				<p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date_to_string }} &nbsp <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}/#disqus_thread"> View Comments</a></p> 
+				<p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%B %-d %Y" }} &nbsp <span class="glyphicon glyphicon-comment"></span> <a href="{{ post.url }}/#disqus_thread"> View Comments</a></p> 
 				<div>{{ post.excerpt }}</div>
 				<p class="text-right"><a class="btn btn-primary" href="{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a></p>
 				<hr>
