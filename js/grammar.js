@@ -74,7 +74,6 @@ function convertYGS() {
     input = input.replace(/button/gi, "buttoonn");
     input = input.replace(/canada/gi, "cananda");
     input = input.replace(/canadian/gi, "canaideien");
-    input = input.replace(/\bcan\b/gi, "kan");
     input = input.replace(/\bcar\b/gi, "kar");
     input = input.replace(/ceiling/gi, "cieling");
     input = input.replace(/channel/gi, "canal");
@@ -459,6 +458,7 @@ function convertYGS() {
         input = input.replace(/birthday/gi, "birtday");
         input = input.replace(/\bby\b/gi, "bi");
         input = input.replace(/can't/gi, "kant");
+        input = input.replace(/\bcan\b/gi, "kan");
         input = input.replace(/children/gi, "childeran");
         input = input.replace(/comedy/gi, "comertry");
         input = input.replace(/comment/gi, "coment");
@@ -536,6 +536,7 @@ function convertYGS() {
         input = input.replace(/birthday/gi, "birtdy");
         input = input.replace(/\bby\b/gi, "bye");
         input = input.replace(/can't/gi, "cunt");
+        input = input.replace(/\bcan\b/gi, "kan");
         input = input.replace(/children/gi, "childern");
         input = input.replace(/comedy/gi, "comady");
         input = input.replace(/comment/gi, "commant");
