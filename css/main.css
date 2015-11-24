@@ -285,3 +285,8 @@ body {
         page-break-after: avoid;
     }
 }
+
+.well {
+    background-color: #eceff1;
+    border-radius: 3px;
+}
