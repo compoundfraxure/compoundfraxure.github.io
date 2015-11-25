@@ -1,5 +1,6 @@
 function convertYGS() {
-    "use strict";
+	
+	"use strict";
     var input = document.getElementById("input").value;
     var two   = Math.floor(Math.random() * 2);
     var three = Math.floor(Math.random() * 3);
@@ -872,6 +873,7 @@ function convertYGS() {
                                 }
     
     document.getElementById("output").innerHTML = input;
+	
 }
 
 //  input = input.replace(//gi, "");
