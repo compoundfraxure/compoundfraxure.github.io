@@ -19,9 +19,9 @@ function convertYGS() {
     input = input.replace(/accent/gi, "acenst");
     input = input.replace(/acceptance/gi, "acceptacne");
 	input = input.replace(/acknowledge/gi, "egnolidge");
-    input = input.replace(/aesthetically/gi, "ascetically");
+    input = input.replace(/aesthetic/gi, "ascetic");
 	input = input.replace(/afraid/gi, "aftiaf");
-    input = input.replace(/african/gi, "aferican");
+    input = input.replace(/africa/gi, "aferica");
     input = input.replace(/again/gi, "agn");
 	input = input.replace(/agony/gi, "aganee");
 	input = input.replace(/album/gi, "albub");
@@ -33,10 +33,10 @@ function convertYGS() {
     input = input.replace(/and I/gi, "ansi");
     input = input.replace(/angel/gi, "angle");
     input = input.replace(/ankle/gi, "ancle");
-    input = input.replace(/annoying/gi, "anonning");
+    input = input.replace(/annoy/gi, "anonn");
     input = input.replace(/another/gi, "anarother");
     input = input.replace(/\bany\b/gi, "anu");
-	input = input.replace(/\bapes\b/gi, "aps");
+	input = input.replace(/ape/gi, "ap");
 	input = input.replace(/apologies/gi, "apologisies");
     input = input.replace(/appreciate/gi, "apreshiate");
     input = input.replace(/as long/gi, "aslong");
@@ -56,14 +56,14 @@ function convertYGS() {
     input = input.replace(/beyonce/gi, "beonce");
     input = input.replace(/bieber's/gi, "bibers");
     input = input.replace(/bieber/gi, "biber");
-	input = input.replace(/birds/gi, "berds");
+	input = input.replace(/bird/gi, "berd");
     input = input.replace(/bitching/gi, "bichting");
     input = input.replace(/bitches/gi, "biches");
     input = input.replace(/bites/gi, "bits");
     input = input.replace(/black/gi, "balacj");
     input = input.replace(/blanket/gi, "blnkette");
     input = input.replace(/blood/gi, "bloood");
-	input = input.replace(/boobs/gi, "bobs");
+	input = input.replace(/boob/gi, "bob");
     input = input.replace(/boss/gi, "boos");
     input = input.replace(/boycott/gi, "boycote");
     input = input.replace(/boys/gi, "boyz");
@@ -77,7 +77,7 @@ function convertYGS() {
     input = input.replace(/bullied/gi, "bullyd");
     input = input.replace(/bumps/gi, "bombs");
     input = input.replace(/buns/gi, "bunz");
-	input = input.replace(/burned/gi, "burded");
+	input = input.replace(/burn/gi, "burd");
     input = input.replace(/burst/gi, "burted");
     input = input.replace(/button/gi, "buttoonn");
 	input = input.replace(/calm/gi, "clam");
@@ -135,8 +135,6 @@ function convertYGS() {
     input = input.replace(/difference/gi, "diverence");
     input = input.replace(/disappear/gi, "disapper");
     input = input.replace(/discs/gi, "dics");
-    input = input.replace(/dislikers/gi, "dislkiers");
-    input = input.replace(/dislike/gi, "dislike");
     input = input.replace(/dizziness/gi, "dizzness");
     input = input.replace(/dumped/gi, "dimmed");
     input = input.replace(/dying/gi, "dieing");
@@ -195,6 +193,7 @@ function convertYGS() {
     input = input.replace(/gross/gi, "gorsse");
     input = input.replace(/ground/gi, "grond");
     input = input.replace(/had/gi, "hahd");
+	input = input.replace(/haters/gi, "haterz");
     input = input.replace(/\bhate\b/gi, "hte");
     input = input.replace(/heard/gi, "heared");
     input = input.replace(/herself/gi, "heself");
@@ -247,8 +246,6 @@ function convertYGS() {
     input = input.replace(/laser/gi, "lazza");
     input = input.replace(/legs/gi, "lags");
     input = input.replace(/lessons/gi, "lassons");
-    input = input.replace(/\blife\b/gi, "like");
-    input = input.replace(/likes/gi, "liykes");
 	input = input.replace(/listened/gi, "lisent");
     input = input.replace(/living/gi, "live&#39;ing");
     input = input.replace(/loophole/gi, "lop hole");
@@ -452,7 +449,6 @@ function convertYGS() {
     input = input.replace(/ugly/gi, "agli");
     input = input.replace(/under/gi, "uder");
     input = input.replace(/unknown/gi, "unknow");
-	input = input.replace(/unlike/gi, "unlik");
     input = input.replace(/until/gi, "till");
     input = input.replace(/vain/gi, "vane");
     input = input.replace(/volume/gi, "valume");
@@ -489,14 +485,13 @@ function convertYGS() {
     input = input.replace(/your/gi, "you&#39;re");
     input = input.replace(/you'll/gi, "your'll");
     input = input.replace(/you're/gi, "your");
-    input = input.replace(/youre/gi, "your");
     input = input.replace(/you've/gi, "use");
 
 //2 Possible    input = input.replace(//gi, "");
 
     if (two === 0) {
         input = input.replace(/about/gi, "bout");
-		input = input.replace(/\baccept\b/gi, "except");
+		input = input.replace(/accept/gi, "except");
         input = input.replace(/amazing/gi, "amazeing");
         input = input.replace(/asymmetric/gi, "uncimetric");
         input = input.replace(/atheist/gi, "athiest");
@@ -536,6 +531,7 @@ function convertYGS() {
         input = input.replace(/happy/gi, "hapy");
 		input = input.replace(/happened/gi, "hapend");
         input = input.replace(/happen/gi, "happy");
+		input = input.replace(/hater/gi, "hatter");
         input = input.replace(/height/gi, "hihet");
 		input = input.replace(/\bhere\b/gi, "hear");
         input = input.replace(/\bhey\b/gi, "hay");
@@ -558,7 +554,7 @@ function convertYGS() {
         input = input.replace(/\bmy\b/gi, "mah");
         input = input.replace(/nothing/gi, "nouin");
 		input = input.replace(/offense/gi, "a fence");
-    	input = input.replace(/offence/gi, "a fence");
+		input = input.replace(/offence/gi, "a fence");
         input = input.replace(/\bpants\b/gi, "panths");
         input = input.replace(/pregnant/gi, "pregnet");
         input = input.replace(/quality/gi, "quelaty");
@@ -566,8 +562,6 @@ function convertYGS() {
         input = input.replace(/relationship/gi, "realtionship");
         input = input.replace(/religion/gi, "religoin");
 		input = input.replace(/remember/gi, "rember");
-        input = input.replace(/retarded/gi, "retarted");
-        input = input.replace(/retards/gi, "retarteds");
 		input = input.replace(/right/gi, "rite");
         input = input.replace(/school/gi, "skewl");
         input = input.replace(/\bsee\b/gi, "c");
@@ -589,7 +583,7 @@ function convertYGS() {
     }
     if (two === 1) {
         input = input.replace(/about/gi, "bowt");
-		input = input.replace(/\baccept\b/gi, "accpet");
+		input = input.replace(/accept/gi, "accpet");
         input = input.replace(/amazing/gi, "amezing");
         input = input.replace(/asymmetric/gi, "unsimetric");
         input = input.replace(/atheist/gi, "athius");
@@ -627,6 +621,7 @@ function convertYGS() {
 		input = input.replace(/happened/gi, "happend");
 		input = input.replace(/\bhappen\b/gi, "hopen");
         input = input.replace(/harassing/gi, "harsing");
+		input = input.replace(/hater/gi, "hayter");
         input = input.replace(/height/gi, "hight");
 		input = input.replace(/\bhere\b/gi, "her");
         input = input.replace(/\bhey\b/gi, "hwy");
@@ -647,7 +642,7 @@ function convertYGS() {
         input = input.replace(/\bmy\b/gi, "myh");
         input = input.replace(/nothing/gi, "nottin");
 		input = input.replace(/offense/gi, "affence");
-    	input = input.replace(/offence/gi, "affence");
+		input = input.replace(/offence/gi, "affence");
         input = input.replace(/\bpants\b/gi, "pents");
         input = input.replace(/pregnant/gi, "pregnat");
         input = input.replace(/quality/gi, "quility");
@@ -655,8 +650,6 @@ function convertYGS() {
         input = input.replace(/relationship/gi, "relionship");
         input = input.replace(/religion/gi, "religon");
 		input = input.replace(/remember/gi, "member");
-        input = input.replace(/retarded/gi, "restarted");
-        input = input.replace(/retards/gi, "redards");
 		input = input.replace(/right/gi, "write");
         input = input.replace(/school/gi, "skool");
         input = input.replace(/\bsee\b/gi, "she");
@@ -691,12 +684,10 @@ function convertYGS() {
             input = input.replace(/english/gi, "engish");
 			input = input.replace(/\bget\b/gi, "qet");
 			input = input.replace(/\bgirl\b/gi, "gurl");
-			input = input.replace(/haters/gi, "haterz");
             input = input.replace(/hating/gi, "hatin");
             input = input.replace(/hungry/gi, "hungary");
             input = input.replace(/love/gi, "luv");
             input = input.replace(/people/gi, "ppl");
-            input = input.replace(/retard/gi, "retarded");
 			input = input.replace(/self/gi, "salf");
             input = input.replace(/something/gi, "somthin");
 			input = input.replace(/\bsong\b/gi, "snoog");
@@ -704,7 +695,6 @@ function convertYGS() {
 			input = input.replace(/terrible/gi, "terrble");
 			input = input.replace(/\bthan\b/gi, "dan");
             input = input.replace(/that's/gi, "thas");
-            
             input = input.replace(/want/gi, "whant");
             input = input.replace(/watch/gi, "watxh");
             
@@ -721,13 +711,10 @@ function convertYGS() {
             input = input.replace(/english/gi, "elinglish");
 			input = input.replace(/\bget\b/gi, "git");
 			input = input.replace(/\bgirl\b/gi, "gyal");
-			input = input.replace(/haters/gi, "hayters");
             input = input.replace(/hating/gi, "hatein&#39;");
             input = input.replace(/hungry/gi, "hungrey");
             input = input.replace(/love/gi, "lobe");
             input = input.replace(/people/gi, "peppl");
-            
-            input = input.replace(/retard/gi, "returd");
 			input = input.replace(/self/gi, "slef");
             input = input.replace(/something/gi, "somat");
 			input = input.replace(/\bsong\b/gi, "sponge");
@@ -735,7 +722,6 @@ function convertYGS() {
 			input = input.replace(/terrible/gi, "terriable");
 			input = input.replace(/\bthan\b/gi, "thn");
             input = input.replace(/that's/gi, "thtz");
-            
             input = input.replace(/want/gi, "wont");
             input = input.replace(/watch/gi, "wash");
             
@@ -752,13 +738,10 @@ function convertYGS() {
             input = input.replace(/english/gi, "engelish");
 			input = input.replace(/\bget\b/gi, "gat");
 			input = input.replace(/\bgirl\b/gi, "gril");
-			input = input.replace(/haters/gi, "hatters");
             input = input.replace(/hating/gi, "hateing");
             input = input.replace(/hungry/gi, "hunfry");
             input = input.replace(/love/gi, "lov");
             input = input.replace(/people/gi, "peole");
-            
-            input = input.replace(/retard/gi, "retad");
 			input = input.replace(/self/gi, "selphs");
             input = input.replace(/something/gi, "sum");
 			input = input.replace(/\bsong\b/gi, "dong");
@@ -766,7 +749,6 @@ function convertYGS() {
 			input = input.replace(/terrible/gi, "tarroble");
 			input = input.replace(/\bthan\b/gi, "tham");
             input = input.replace(/that's/gi, "thts");
-            
             input = input.replace(/want/gi, "wnt");
             input = input.replace(/watch/gi, "wacth");
             
@@ -780,7 +762,6 @@ function convertYGS() {
                 input = input.replace(/bitch/gi, "bich");
                 input = input.replace(/douche/gi, "doushe");
                 input = input.replace(/first/gi, "1rd");
-				input = input.replace(/\blike\b/gi, "likee");
                 input = input.replace(/please/gi, "plz");
 				input = input.replace(/racist/gi, "racism");
                 input = input.replace(/sense/gi, "seance");
@@ -794,7 +775,6 @@ function convertYGS() {
                 input = input.replace(/bitch/gi, "bich");
                 input = input.replace(/douche/gi, "douesh");
                 input = input.replace(/first/gi, "firts");
-				input = input.replace(/\blike\b/gi, "liek");
                 input = input.replace(/please/gi, "pleas");
 				input = input.replace(/racist/gi, "raisist");
                 input = input.replace(/sense/gi, "sens");
@@ -808,7 +788,6 @@ function convertYGS() {
                 input = input.replace(/bitch/gi, "bich");
                 input = input.replace(/douche/gi, "dush");
                 input = input.replace(/first/gi, "fisrt");
-				input = input.replace(/\blike\b/gi, "liie");
                 input = input.replace(/please/gi, "ples");
 				input = input.replace(/racist/gi, "rasict");
                 input = input.replace(/sense/gi, "since");
@@ -822,7 +801,6 @@ function convertYGS() {
                 input = input.replace(/bitch/gi, "beach");
                 input = input.replace(/douche/gi, "dutch");
                 input = input.replace(/first/gi, "frist");
-				input = input.replace(/\blike\b/gi, "lik");
                 input = input.replace(/please/gi, "pliz");
 				input = input.replace(/racist/gi, "racialist");
                 input = input.replace(/sense/gi, "sence");
@@ -839,66 +817,72 @@ function convertYGS() {
 					input = input.replace(/\bknow\b/gi, "no");
                     input = input.replace(/\bthe\b/gi, "duh");
                     input = input.replace(/this/gi, "diz");
-                    input = input.replace(/thumbs/gi, "thums");
+                    input = input.replace(/thumb/gi, "thum");
 					input = input.replace(/what/gi, "wat");
-                    if (input.search("you're") < 0) {input = input.replace(/\byou\b/gi, "u"); }
+                    input = input.replace(/\byou\b/gi, "u");
                 }
                 if (five === 1) {
                     input = input.replace(/\bjust\b/gi, "jsut");
 					input = input.replace(/\bknow\b/gi, "now");
                     input = input.replace(/\bthe\b/gi, "d");
                     input = input.replace(/this/gi, "dis");
-                    input = input.replace(/thumbs/gi, "dumbs");
+                    input = input.replace(/thumb/gi, "dumb");
 					input = input.replace(/what/gi, "when");
-                    if (input.search("you're") < 0) {input = input.replace(/\byou\b/gi, "ya"); }
+                    input = input.replace(/\byou\b/gi, "ya");
                 }
                 if (five === 2) {
                     input = input.replace(/\bjust\b/gi, "juss");
 					input = input.replace(/\bknow\b/gi, "noe");
                     input = input.replace(/\bthe\b/gi, "da");
                     input = input.replace(/this/gi, "thids");
-                    input = input.replace(/thumbs/gi, "thubs");
+                    input = input.replace(/thumb/gi, "thub");
 					input = input.replace(/what/gi, "wt");
-                    if (input.search("you're") < 0) {input = input.replace(/\byou\b/gi, "yu"); }
+                    input = input.replace(/\byou\b/gi, "yu");
                 }
                 if (five === 3) {
                     input = input.replace(/\bjust\b/gi, "juz");
 					input = input.replace(/\bknow\b/gi, "kno");
                     input = input.replace(/\bthe\b/gi, "thee");
                     input = input.replace(/this/gi, "tis");
-                    input = input.replace(/thumbs/gi, "thumps");
+                    input = input.replace(/thumb/gi, "thump");
 					input = input.replace(/what/gi, "want");
-                    if (input.search("you're") < 0) {input = input.replace(/\byou\b/gi, "yuu"); }
+                    input = input.replace(/\byou\b/gi, "yuu");
                 }
                 if (five === 4) {
                     input = input.replace(/\bjust\b/gi, "jst");
 					input = input.replace(/\bknow\b/gi, "knowe");
                     input = input.replace(/\bthe\b/gi, "tha");
                     input = input.replace(/this/gi, "thys");
-                    input = input.replace(/thumbs/gi, "tums");
+                    input = input.replace(/thumb/gi, "tum");
 					input = input.replace(/what/gi, "waht");
-                    if (input.search("you're") < 0) {input = input.replace(/\byou\b/gi, "yhu"); }
+                    input = input.replace(/\byou\b/gi, "yhu");
                 }
     
 //6 Possible    input = input.replace(//gi, "");
 
                     if (six === 0) {
-                        
+                        input = input.replace(/like/gi, "lkie");
+						input = input.replace(/retard/gi, "retarded");
                     }
                     if (six === 1) {
-                        
+                        input = input.replace(/like/gi, "liyke");
+						input = input.replace(/retard/gi, "retad");
                     }
                     if (six === 2) {
-                        
+                        input = input.replace(/like/gi, "likee");
+						input = input.replace(/retard/gi, "returd");
                     }
                     if (six === 3) {
-                        
+                        input = input.replace(/like/gi, "liek");
+						input = input.replace(/retard/gi, "retart");
                     }
                     if (six === 4) {
-                        
+                        input = input.replace(/like/gi, "liie");
+						input = input.replace(/retard/gi, "restart");
                     }
                     if (six === 5) {
-                        
+                        input = input.replace(/blike/gi, "lik");
+						input = input.replace(/retard/gi, "redard");
                     }
     
 //7 Possible    input = input.replace(//gi, "");
@@ -981,6 +965,8 @@ function convertYGS() {
                                 if (nine === 8) {
                                     input = input.replace(/stupid/gi, "stpuid");
                                 }
+// Conflicting Words
+	input = input.replace(/life/gi, "like");
     
     document.getElementById("output").innerHTML = input;
 	
