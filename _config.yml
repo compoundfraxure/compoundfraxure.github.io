@@ -8,6 +8,6 @@ twitter_username: compoundfraxure
 github_username:  compoundfraxure
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 paginate: 5
