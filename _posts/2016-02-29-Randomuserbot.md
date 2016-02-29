@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Twitter "
-date:   2015-12-14 09:30:20 AM
+title:  "@Randomuserbot"
+date:   2016-02-29 10:18:50 AM
 ---
 
 Here is the latest fruits of my programming endeavors: I made a Twitter bot.
