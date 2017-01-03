@@ -9,5 +9,5 @@ github_username:  compoundfraxure
 
 # Build settings
 markdown: kramdown
-pygments: true
+highlighter: rouge
 paginate: 5
